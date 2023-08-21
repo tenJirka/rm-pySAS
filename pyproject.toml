@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rm_pySAS"
+version = "0.0.1"
+authors = [
+  { name="tenJirka", email="jirka.steh@gmail.com" },
+]
+description = "Python library for easy development of apps for reMarkable tablet in Python."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tenJirka/rm-pySAS"
