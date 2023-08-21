@@ -102,6 +102,10 @@ On the reMarkable tablet it look like this:
 
 <img src="images/two_buttons_screen.png" style="zoom:75%;" />
 
+## Documentation
+
+Documentation could be found [here](https://github.com/tenJirka/rm-pySAS/wiki/Documentation).
+
 ## Credits
 
 - [rmkit](https://github.com/rmkit-dev/rmkit) - reMarkable app framework on which this library stands
