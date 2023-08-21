@@ -104,7 +104,7 @@ On the reMarkable tablet it look like this:
 
 ## Documentation
 
-Documentation could be found [here](https://github.com/tenJirka/rm-pySAS/wiki/Documentation).
+Documentation can be found [here](https://github.com/tenJirka/rm-pySAS/wiki/Documentation).
 
 ## Credits
 
