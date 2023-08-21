@@ -2,7 +2,7 @@
 
 The goal of this library is to make it as easy as possible to create applications for reMarkable tablet using Python. 
 
-**It works as a wrapper a wrapper around [SAS](https://rmkit.dev/apps/sas) and must be installed separately.**
+**It works as a wrapper around [SAS](https://rmkit.dev/apps/sas) and it must be installed separately.**
 
 All types of widgets are assumed from SAS and all have same behavior. It's good idea to read about them before using this library  [here](https://rmkit.dev/apps/sas/spec).
 
@@ -14,21 +14,23 @@ All types of widgets are assumed from SAS and all have same behavior. It's good 
 
 All dependencies can be install via [Toltec](https://toltec-dev.org/) with command:
 
-```
+```bash
 opkg install python3 simple python3-pip
 ```
 
 ## Installation
 
-### From PIP repository
+### From PIP
 
-- Will be added later
+```bash
+pip install rm_pysas
+```
 
 ### Build from source
 
 1. Download repository and enter it's directory
 
-   ```
+   ```bash
    $ git clone https://github.com/tenJirka/rm-pySAS.git
    $ cd rm-pySAS
    ```
@@ -55,7 +57,7 @@ opkg install python3 simple python3-pip
 
 ## Uninstallation
 
-```
+```bash
 python3 -m pip uninstall rm_pysas
 ```
 
