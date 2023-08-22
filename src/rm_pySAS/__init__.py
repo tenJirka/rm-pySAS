@@ -170,6 +170,7 @@ class NoClear():
 def diacriticsRepair(text: str) -> str:
     """
     This functions take care of problem that make some diacritics letters disappear or make SAS crash
+    See this issue: https://github.com/rmkit-dev/rmkit/issues/202
     """
 
     if text == "":

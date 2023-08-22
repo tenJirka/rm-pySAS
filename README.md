@@ -11,11 +11,12 @@ All types of widgets are assumed from SAS and all have same behavior. It's good 
 - Simple  -  SAS (simple app script) package
 - Python3
 - pip
+- display - for reMarkable 2
 
 All dependencies can be install via [Toltec](https://toltec-dev.org/) with command:
 
 ```bash
-opkg install python3 simple python3-pip
+opkg install python3 simple python3-pip #display
 ```
 
 ## Installation
@@ -60,6 +61,14 @@ pip install rm_pysas
 ```bash
 python3 -m pip uninstall rm_pysas
 ```
+
+## Good to know
+
+This modules tries to edit entered text that will be displayed to prevent Simple from crash or skip letters. See this [issue](https://github.com/rmkit-dev/rmkit/issues/202).
+
+It automatically adds `.` when text ends with some problem letter and automatically convert upper case problem letters to lower case.
+
+This behavior can't be turn off for now and will removed when this issue will be solved.
 
 ## Examples
 
