@@ -111,6 +111,9 @@ On the reMarkable tablet it look like this:
 
 <img src="images/two_buttons_screen.png" style="zoom:75%;" />
 
+### reGenda
+
+[reGenda](https://github.com/tenJirka/reGenda) is agenda app for reMarkable based on this module. You can look at it to see how this module can be  used.
 ## Documentation
 
 Documentation can be found [here](https://github.com/tenJirka/rm-pySAS/wiki/Documentation).
